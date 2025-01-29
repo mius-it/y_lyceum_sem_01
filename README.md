@@ -1,1 +1,0 @@
-# y_lyceum_sem_01
