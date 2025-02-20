@@ -5,7 +5,7 @@ string = input()
 for i in string:
     if i == 'о':
         cntr += 1
-    if i == 'р':
+    elif i == 'р':
         cntr = 0
     if cntr > cntrmax:
         cntrmax = cntr
