@@ -31,7 +31,7 @@ for i in range(len(list_points_loose)):
             break
 list_names_loose.sort()
 
-for s in (list_names_win):
+for s in list_names_win:
     print(s)
-for s in (list_names_loose):
+for s in list_names_loose:
     print(s)
