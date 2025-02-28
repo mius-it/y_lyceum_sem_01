@@ -1,6 +1,6 @@
 n = int(input())
 for _ in range(n):
-    cubes = list(map(int, input().split()))
+    cubes = [int(c) for c in input().split()]
     pyramid = []
     while cubes:
         if cubes[0] >= cubes[-1]:
